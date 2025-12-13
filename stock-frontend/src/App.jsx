@@ -1,24 +1,24 @@
 //App.jsx
 import React from "react";
-
- feature-votreNomDeTache
+import Navbar from "./components/Navbar";
 import HeroSlider from "./components/HeroSlider";
-
-
+import Stats from "./components/Stats";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Description from "./components/Description";
- master
+import Contact from "./components/Contact";
 import "./global.css";
 
 export default function App() {
   return (
     <>
- feature-votreNomDeTache
-   
+      <Navbar />
       <HeroSlider />
-      
-
-   <Description />
- master
+      <Stats />
+      <Features />
+      <Description />
+      <Contact />
+      <Footer />
     </>
   );
 }
